@@ -220,14 +220,13 @@ button[type="submit"] {
     }
     
     .form {
-        padding: 2.5rem;
+        padding: 2rem;
         display: grid;
         min-width: 660px;
     }
     
     .form__title {
         grid-area: 1 / 1 / 2 / 3;
-        font-size: 2rem;
     }
     
     .form__email {
@@ -254,7 +253,7 @@ button[type="submit"] {
     .form__checkbox {
         grid-area: 6 / 1 / 7 / 3;
     }
-    
+
     button[type="submit"] {
         grid-column: 1 / 3;
     }
